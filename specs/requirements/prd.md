@@ -28,9 +28,9 @@ A single-page todo web app that works the instant it loads: no sign-in, no accou
 - No data persistence: todo items live only in the browser's in-memory state for the current page view. Reloading, closing, or reopening the app always starts from an empty list; there is no backend, no database, and no browser-storage fallback.
 - Single flat list: there is exactly one todo list, with no categories, folders, or multiple lists.
 - A todo item carries exactly two fields: its text and a complete/incomplete status. No due dates, priorities, or notes.
-- Editing an existing item's text is supported. *assumed*
-- Clearing all completed items in one action is supported. *assumed*
-- Filtering the visible list by all/active/completed is supported. *assumed*
+- Editing an existing item's text is supported.
+- Clearing all completed items in one action is supported.
+- Filtering the visible list by all/active/completed is supported.
 
 ## Out of Scope
 
