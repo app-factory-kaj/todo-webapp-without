@@ -1,0 +1,14 @@
+{
+  "name": "todo-webapp",
+  "type": "web-application",
+  "version": "0.1.0",
+  "language": "TypeScript",
+  "buildpack": "docker",
+  "appPath": "todo-webapp",
+  "entrypoint": "deployment/web-application",
+  "exposure": "internet",
+  "dependencies": [],
+  "description": "A single-page todo list application. Holds all todo items purely in browser (React) state for the lifetime of the current page view: add, edit, complete/incomplete, delete, filter by all/active/completed, and clear all completed items at once. It does NOT sign users in, call any backend API, or persist data anywhere — reloading or reopening the page always starts from an empty list.",
+  "stories": [1, 2, 3, 4, 5, 6, 7],
+  "skillsPinned": ["wireframes", "react-webapp", "oxygen-ui-design-system"]
+}
